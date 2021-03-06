@@ -10,6 +10,42 @@
       <a href="/canvas.html">Canvas</a>
     </nav>
     <main>
+      <section id="user-media">
+        <h2>User Media</h2>
+
+        <button id="record">Record</button>
+        <video autoplay id="webcam"></video>
+      </section>
+
+      <section id="speech-section">
+        <h2>Speech</h2>
+        <select id="voices"></select>
+        <textarea id="text"></textarea>
+        <button id="speak">Speak!</button>
+      </section>
+      <section>
+        <h2>Audio</h2>
+
+        <audio id="audio" src="assets/music.mp3"></audio>
+
+        <button id="play">Play</button>
+        <span id="time"></span>
+        <span id="duration"></span>
+
+        <input id="volume" type="range" min="0" max="100" value="100" />
+      </section>
+
+      <section id="video-section">
+        <h2>Video</h2>
+
+        <video id="video" src="assets/rabbit320.webm"></video>
+        <button id="fullscreen-button">Toggle fullscreen</button>
+      </section>
+
+      <section id="files">
+        <h2>File upload</h2>
+        <input id="upload" type="file" />
+      </section>
       <section id="storage"></section>
       <section id="ex-2">
         <h2>Form</h2>
